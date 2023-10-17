@@ -16,6 +16,7 @@ const Examples: CollectionConfig = {
       name: 'longDescription',
       label: 'Long Description',
       localized: true,
+      required: true,
     }) as Field,
   ],
 }
