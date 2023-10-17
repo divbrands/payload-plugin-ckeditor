@@ -1,6 +1,6 @@
 {
   "name": "@divbrands/payload-plugin-ckeditor",
-  "version": "0.0.1-rc3",
+  "version": "0.0.1-rc5",
   "homepage:": "https://payloadcms.com",
   "repository": "git@github.com:divbrands/payload-plugin-ckeditor.git",
   "description": "Implementation of CKEditor 5 on top of PayloadCMS",
@@ -15,7 +15,7 @@
     "ckeditor5"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp src/components/ckeditor.css dist/components/ckeditor.css",
     "test": "cd dev && yarn test",
     "lint": "eslint src",
     "lint:fix": "eslint --fix --ext .ts,.tsx src",
