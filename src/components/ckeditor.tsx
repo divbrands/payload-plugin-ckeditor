@@ -28,7 +28,7 @@ export const ckeditor = (props: Props) => {
 
   return (
     <div style={{ marginBottom: '12px' }}>
-      <label style={{ color: 'rgb(235, 235, 235)' }}>{props.label}</label>
+      <label className="plugin-label">{props.label}</label>
       <CKEditor
         editor={ClassicEditor}
         data={value as string}

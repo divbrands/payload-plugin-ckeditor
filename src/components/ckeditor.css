@@ -1,4 +1,4 @@
-:root {
+:root[data-theme='dark'] {
   /* Overrides the border radius setting in the theme. */
   --ck-border-radius: 4px !important;
 
@@ -119,6 +119,10 @@
   /* -- Overrides the default colors used by the ckeditor5-link package. ---------------------- */
 
   --ck-color-link-default: hsl(190, 100%, 75%) !important;
+}
+
+.plugin-label[data-theme='dark'] {
+  color: rgb(235, 235, 235) !important;
 }
 
 .ck-content {
