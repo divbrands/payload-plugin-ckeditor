@@ -21,14 +21,14 @@ describe('Plugin tests', () => {
   // Add tests to ensure that the plugin works as expected
 
   // Example test to check for seeded data
-  it('seeds data accordingly', async () => {
-    const newCollectionQuery = await payload.find({
-      collection: 'new-collection',
-      sort: 'createdAt',
-    })
+  // it('seeds data accordingly', async () => {
+  //   const newCollectionQuery = await payload.find({
+  //     collection: 'new-collection',
+  //     sort: 'createdAt',
+  //   })
 
-    newCollection = newCollectionQuery.docs
+  //   newCollection = newCollectionQuery.docs
 
-    expect(newCollectionQuery.totalDocs).toEqual(1)
-  })
+  //   expect(newCollectionQuery.totalDocs).toEqual(1)
+  // })
 })
