@@ -1,6 +1,6 @@
 {
   "name": "@divbrands/payload-plugin-ckeditor",
-  "version": "0.0.1-rc2",
+  "version": "0.0.1-rc3",
   "homepage:": "https://payloadcms.com",
   "repository": "git@github.com:divbrands/payload-plugin-ckeditor.git",
   "description": "Implementation of CKEditor 5 on top of PayloadCMS",
