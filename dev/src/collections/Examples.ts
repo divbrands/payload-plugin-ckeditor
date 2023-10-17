@@ -1,4 +1,5 @@
-import { CollectionConfig } from 'payload/types';
+import { CollectionConfig, Field } from 'payload/types'
+import { ckeditorField } from '../../../src/fields/ckeditorField'
 
 // Example Collection - For reference only, this must be added to payload.config.ts to be used.
 const Examples: CollectionConfig = {
@@ -11,7 +12,12 @@ const Examples: CollectionConfig = {
       name: 'someField',
       type: 'text',
     },
+    ckeditorField({
+      name: 'longDescription',
+      label: 'Long Description',
+      localized: true,
+    }) as Field,
   ],
 }
 
-export default Examples;
+export default Examples
